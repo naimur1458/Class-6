@@ -1,0 +1,93 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: 'Dancing Script', cursive;
+font-size: 14px;
+line-height: 24px;
+height: 1500px;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Teko', sans-serif;
+
+}
+a, a:hover{
+text-decoration: none;
+}
+.green{
+width: 700px;
+height: 350px;
+background: green;
+position: relative;
+margin: 0px 300px;
+}
+.red{
+width: 230px;
+height: 230px;
+background: red;
+border-radius: 100%;
+position: absolute;
+top: 17.5%;
+right: 35%;
+}
+.fb{
+width: 150px;
+height: 35px;
+position: fixed;
+top: 40%;
+right: -120px;
+transition: .5s;
+}
+.fb:hover{
+right: -1px;
+transition: .5s;
+cursor: pointer;
+}
+.tw{
+width: 150px;
+height: 70px;
+position: fixed;
+top: 45%;
+right: -107px;
+transition: .5s;
+}
+.tw:hover{
+right: -1px;
+transition: .5s;
+cursor: pointer;
+}
+
+
+
+.social-media{
+width: 100%;
+
+margin: 40px 0px;
+padding: 80px 0px;
+}
+.social-icons{
+text-align: center;
+width: 100%;
+}
+.social-icons li{
+list-style: none;
+display: inline-block;
+}
+.social-icons li a{
+display: block;
+width: 80px;
+height: 80px;
+line-height: 80px;
+font-size: 30px;
+background: gray;
+color: lightblue;
+border-radius: 100%;
+margin: 0px 5px;
+transition: .5s;
+box-shadow: 1px 4px 2px 2px;
+}
+.social-icons li a:hover{
+background: skyblue;
+color: blue;
+}
